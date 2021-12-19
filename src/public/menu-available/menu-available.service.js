@@ -12,7 +12,7 @@
     service.getAllMenuItems = function (menunumber) {
       var req = $http({
         method: "GET",
-        url: ("http://mrout-server.herokuapp.com/menu_items/" + menunumber + ".json")
+        url: ("https://mrout-server.herokuapp.com/menu_items/" + menunumber + ".json")
       });
       return req;
     }
